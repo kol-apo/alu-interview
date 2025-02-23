@@ -26,4 +26,3 @@ def rain(walls):
         water += min(left_max[i], right_max[i]) - walls[i]
 
     return water if water > 0 else 0
-    .
